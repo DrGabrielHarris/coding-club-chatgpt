@@ -1,0 +1,29 @@
+variant,prompt,response,feedback
+1_0,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake Maker
+
+Product description: A watch that can tell accurate time in space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate, EliptoTime.
+
+Product description: A pair of shoes that can fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptFit, OmniShoe, FlexiFit, FitAll, ShapeShifter Shoes, Universal Sole, ComfortStep, CustomFit Footwear.",
+0_0,"Product description: A pair of shoes that can fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. FlexiFit Shoes
+2. Adaptable Steps
+3. OmniFit Footwear
+4. SizeSense Shoes
+5. FitAll Sneakers
+6. Universal Comfort Kicks
+7. CustomEase Shoes
+8. EverFit Footwear
+9. VersatileStride Shoes
+10. AllSize Sneakers
+11. ShapeShift Shoes
+12. FitFlex Footgear
+13. AdaptiveStep Sneakers
+14. OneSize Wonder Shoes
+15. InfiniteFit Footwear",
