@@ -1,0 +1,8 @@
+ipykernel
+ipython
+ipywidgets
+openai
+python-dotenv
+tiktoken
+pandas
+httpx==0.27.2

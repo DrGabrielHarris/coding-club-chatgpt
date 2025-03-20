@@ -1,0 +1,41 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.10-bookworm",
+	"features": {},
+	"postCreateCommand": "pip install -r requirements.txt && sudo apt update && sudo apt install libgl1-mesa-glx -y",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"files.autoSave": "afterDelay",
+				"files.autoSaveDelay": 5000,
+				"editor.wordWrap": "on",
+				"editor.rulers": [
+					88
+				],
+				"[python]": {
+					"editor.insertSpaces": true,
+					"editor.tabSize": 4,
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "charliermarsh.ruff",
+					"editor.codeActionsOnSave": {
+						"source.fixAll.ruff": "explicit",
+						"source.organizeImports.ruff": "explicit"
+					}
+				},
+				"notebook.formatOnSave.enabled": true,
+				"notebook.codeActionsOnSave": {
+					"notebook.source.fixAll": true,
+					"notebook.source.organizeImports": true
+				},
+				"workbench.preferredLightColorTheme": "Default Light+",
+				"jupyter.notebookFileRoot": "${workspaceFolder}}"
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"charliermarsh.ruff"
+			]
+		}
+	}
+}
